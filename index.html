@@ -278,11 +278,11 @@ footer a{color:rgba(255,255,255,.4)}
 
 /* MOBILE */
 @media(max-width:700px){
-  .hero{grid-template-columns:1fr;min-height:auto;padding-top:72px}
-  .hero-left{padding:40px 24px 32px}
-  .hero-right{height:70vw}
-  .mac-float{width:68%;bottom:16px;right:8px}
-  .ipad-float{width:30%;bottom:8px}
+  .hero{display:flex;flex-direction:column;min-height:auto;padding-top:56px}
+  .hero-right{order:0;height:72vw;width:100%}
+  .hero-left{order:1;padding:28px 20px 32px}
+  .mac-float{width:46%;bottom:0;right:4px}
+  .ipad-float{width:21%;bottom:0;left:2%}
   .dor-inner,.geo-inner{grid-template-columns:1fr;gap:36px}
   .dor-caption{float:none;margin:12px 0 0;display:inline-block}
   .passos-grid{grid-template-columns:1fr;gap:32px}
